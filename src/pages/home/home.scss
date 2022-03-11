@@ -1,6 +1,7 @@
 .home {
-  background: rgb(214, 71, 71);
-  .title {
-    color: aquamarine;
+  display: flex;
+
+  .homeContainer {
+    flex: 6;
   }
 }

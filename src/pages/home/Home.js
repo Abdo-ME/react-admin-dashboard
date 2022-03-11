@@ -1,11 +1,13 @@
 
+import Sidebar from "../../components/sidebar/sidebar"
 import "./home.scss"
+
 const Home = () => {
-  return (
-      <div className="home">
-          <h1 className="title">Abdo_Me</h1>
+return (
+    <div className="home">
+        <Sidebar />
+        <div className="homeContainer">Container</div>
     </div>
-  )
-}
+)}
 
 export default Home
