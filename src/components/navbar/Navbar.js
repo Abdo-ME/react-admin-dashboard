@@ -8,8 +8,6 @@ import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutline
 import FormatListBulletedOutlinedIcon from '@mui/icons-material/FormatListBulletedOutlined';
 
 
-
-
 const Navbar = () => {
   return (
     <div className='navbar'>
