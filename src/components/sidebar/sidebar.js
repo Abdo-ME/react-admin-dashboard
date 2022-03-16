@@ -1,4 +1,8 @@
 import "./sidebar.scss"
+import { Link } from "react-router-dom";
+
+
+
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
 import StoreIcon from '@mui/icons-material/Store';
@@ -27,6 +31,7 @@ const sidebar = () => {
         <ul>
           <p className="title">MAIN</p>
           <li>
+          <Link to="/"></Link>
           <DashboardIcon className="icon" />
             <span>Dashboard</span>
           </li>
