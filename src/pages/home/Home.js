@@ -7,12 +7,12 @@ import List from "../../components/table/Table"
 import Widget from "../../components/widget/Widget"
 import "./home.scss"
 
-const Home = () => {
+const Home = ({themChange,darkMode}) => {
 return (
     <div className="home">
-        <Sidebar />
+        <Sidebar themChange={themChange} darkMode ={darkMode}/>
         <div className="homeContainer">
-            <Navbar />
+            <Navbar themChange={themChange} darkMode={darkMode}  />
             <div className="widgets">
                 <Widget type='user'/>
                 <Widget type='order'/>
